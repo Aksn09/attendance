@@ -9,12 +9,65 @@
 </head>
 <body>
     <p style="font-size: 25px; text-align: center; font-weight: 600;">Enter Your roll number.</p>
-    <div class="cont" style="font-size: 25px; color:yellowgreen; text-align: center; font-weight: 600;">
+    <div class="form-cont">
         <form action="backend.php" method="post">
             <input type="number" name="roll_no" placeholder="Roll No."><br>
             <input type="submit" name="rollsubmit" value= 'Submit' class="submit">
         </form>
     </div>
     <br>
+    <hr>
+    <!-- 2nd  -->
+    <div>
+        <!-- <p style="font-size: 25px; text-align: center; font-weight: 600;">Enter Your roll number.</p> -->
+        <p style="font-size: 25px; text-align: center; font-weight: 600;">For Gross Attendance</p>
+        <div class="form-cont">
+            <form action="backend.php" method="post">
+                <input type="number" name="roll_no" placeholder="Enter Roll No."><br>
+                <input type="submit" name="attensubmit" value= 'Submit' class="submit">
+            </form>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <!-- 3rd -->
+    <div>
+        <!-- <p style="font-size: 25px; text-align: center; font-weight: 600;">Enter Your roll number.</p> -->
+        <p style="font-size: 25px; text-align: center; font-weight: 600;">Attendance on specific date</p>
+        <div class="form-cont">
+            <form action="backend.php" method="post">
+                <input type="number" name="roll_no" placeholder="Enter Roll No."><br>
+                <input type="datetime" name="datetime" placeholder="Enter date"><br>
+                <input type="submit" name="findatten" value= 'Submit' class="submit">
+            </form>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <div>
+        <!-- <p style="font-size: 25px; text-align: center; font-weight: 600;">Enter Your roll number.</p> -->
+        <p style="font-size: 25px; text-align: center; font-weight: 600;">Strength of class on </p>
+        <div class="form-cont">
+            <form action="backend.php" method="post">
+                <input type="datetime" name="datetime" placeholder="Enter date"><br>
+                <input type="submit" name="findstr" value= 'Submit' class="submit">
+            </form>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <div>
+        <!-- <p style="font-size: 25px; text-align: center; font-weight: 600;">Enter Your roll number.</p> -->
+        <p style="font-size: 25px; text-align: center; font-weight: 600;">Average attendance</p>
+        <div class="form-cont">
+            <form action="backend.php" method="post">
+                <input type="number" name="roll_no" placeholder="Enter Roll No."><br>
+                <input type="submit" name="avgatten" value= 'Submit' class="submit">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
